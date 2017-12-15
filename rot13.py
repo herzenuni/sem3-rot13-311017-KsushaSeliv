@@ -5,5 +5,5 @@ def rot_13(text):
    return 'NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm'[i]
   else:
    return englishlang
-  return "".join(map(rot, text))
+ return "".join(map(rot, text))
 print(rot_13('noenpnqnoen'))  #результат: abracadabra
