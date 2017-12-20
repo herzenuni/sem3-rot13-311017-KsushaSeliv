@@ -21,7 +21,7 @@ print(rot_13('noenpnqnoen'))  #результат: abracadabra
 file=open("text.txt", "r") #только для чтения
 textik=file.read() 
 file.close() 
-file_1 = open("text_1.txt", "a+") #если такого файла нет, то он будет создан
+file_1=open("text_1.txt", "a+") #если такого файла нет, то он будет создан
 readik=(rot13(textik)) 
 file_1.write(readik) 
 file_1.close()
